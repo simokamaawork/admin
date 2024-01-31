@@ -43,8 +43,8 @@ jobs:
         with:
           # Upload entire repository
           path:
-            - default
-            - files
+            default
+            files
 
       - name: Deploy to GitHub Pages
         id: deployment
