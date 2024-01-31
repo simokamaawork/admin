@@ -1,0 +1,1 @@
+its refusing to loads static static files, project struture is two folders: default and files, under default folder there is index.html, under files there is asset folder that contains static files like javascript and css
