@@ -44,7 +44,14 @@ jobs:
           # Upload entire repository
           path:
             default
+
+      - name: Upload files artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path:
             files
+            
 
       - name: Deploy to GitHub Pages
         id: deployment
